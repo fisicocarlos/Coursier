@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <name>ammonite-compiler-interface_2.13.8</name>
+    <groupId>com.lihaoyi</groupId>
+    <artifactId>ammonite-compiler-interface_2.13.8</artifactId>
+    <packaging>jar</packaging>
+    <description>ammonite-compiler-interface</description>
+    <version>2.5.4-11-4f5bf2aa</version>
+    <url>https://github.com/com-lihaoyi/Ammonite</url>
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>https://spdx.org/licenses/MIT.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:git://github.com/com-lihaoyi/Ammonite.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:com-lihaoyi/Ammonite.git</developerConnection>
+        <url>https://github.com/com-lihaoyi/Ammonite</url>
+    </scm>
+    <developers>
+        <developer>
+            <id>lihaoyi</id>
+            <name>Li Haoyi</name>
+            <url>https://github.com/lihaoyi</url>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.13.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lihaoyi</groupId>
+            <artifactId>acyclic_2.13.8</artifactId>
+            <version>0.3.3</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.lihaoyi</groupId>
+            <artifactId>ammonite-util_2.13</artifactId>
+            <version>2.5.4-11-4f5bf2aa</version>
+        </dependency>
+    </dependencies>
+</project>
